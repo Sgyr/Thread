@@ -39,8 +39,8 @@ public class PasswordTest extends BaseTest {
 
         SimpleHash hash = new SimpleHash(algorithmName, password, salt1 + salt2, hashIterations);
         String encodedPassword = hash.toHex();
-        System.out.println(salt2);
-        System.out.println(encodedPassword);
+        System.out.println("salt2:"+salt2);
+        System.out.println("encode:"+encodedPassword);
     }
 
     @Test

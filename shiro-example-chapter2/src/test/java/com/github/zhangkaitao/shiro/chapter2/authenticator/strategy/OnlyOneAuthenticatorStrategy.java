@@ -45,8 +45,6 @@ public class OnlyOneAuthenticatorStrategy extends AbstractAuthenticationStrategy
                 }
             }
         }
-
-
         return info;
     }
 
